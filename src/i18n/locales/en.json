@@ -6,5 +6,20 @@
   "welcome": "Welcome to the App!",
   "signup": "SignUp",
   "index": "Welcome to Gênios da Web!",
-  "do_login": "Click to login"
+  "do_login": "Click to login",
+  "RecifeVivo":"Recife Vivo: Technology for a Vibrant City",
+  "HabitaçõesAtraentes": "Attractive Housing",
+  "HabitaçõesAtraentestxt": "Use of smart construction technologies, such as the use of sustainable and energy-efficient materials. Incorporation of urban design elements that promote a cohesive and secure community, such as green areas, living spaces, and infrastructure for sustainable transportation. Integration of smart services in homes, such as home automation systems for lighting, temperature, and security control.",
+  "AtividadesComerciaisVibrantes": "Vibrant Commercial Activities",
+  "AtividadesComerciaisVibrantestxt": "Implementation of e-commerce and delivery solutions to support local businesses and provide convenience to residents. Development of digital platforms to promote local commerce, facilitating interaction between merchants and customers. Use of data analysis to identify consumption trends and business opportunities in the city center.",
+  "TurismoEncantador": "Enchanting Tourism",
+  "TurismoEncantadortxt": "Creation of immersive tourism experiences using technologies such as virtual and augmented reality to tell stories and highlight tourist spots. Development of mobile applications that provide real-time tourist information, personalized travel guides, and transportation options. Promotion of cultural events and thematic festivals that celebrate the cultural and historical diversity of Recife.",
+  "CulturaViva": "Lively Culture",
+  "CulturaVivatxt": "Support for local cultural and artistic initiatives, such as art galleries, theaters, and cultural centers, through funding and public-private partnerships. Use of public spaces for outdoor art exhibitions, musical performances, and film screenings. Digitization and preservation of cultural heritage through digital archiving projects and online access to historical collections.",
+  "HomeTitle": "Recife Alive: Technology for a Vibrant City",
+  "About": "About",
+  "Contact": "Contact",
+  "Logout": "Logout",
+  "EventTitlePrefix": "Event",
+  "EventDescriptionPrefix": "Description of Event"
 }

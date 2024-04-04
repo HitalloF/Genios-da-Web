@@ -6,6 +6,21 @@
     "welcome": "Bem vindo ao app!",
     "signup": "Cadastrar",
     "index": "Bem vindo Gênios da Web!",
-    "do_login": "Fazer login"
+    "do_login": "Fazer login",
+    "RecifeVivo":"Recife Vivo: Tecnologia para uma Cidade Vibrante",
+    "HabitaçõesAtraentes": "Habitações Atraentes",
+    "HabitaçõesAtraentestxt": "Utilização de tecnologias de construção inteligente, como o uso de materiais sustentáveis e eficientes energeticamente. Incorporação de elementos de design urbano que promovam uma comunidade coesa e segura, como áreas verdes, espaços de convivência e infraestrutura para transporte sustentável. Integração de serviços inteligentes em residências, como sistemas de automação residencial para controle de iluminação, temperatura e segurança.",
+    "AtividadesComerciaisVibrantes": "Atividades Comerciais Vibrantes",
+    "AtividadesComerciaisVibrantestxt": "Implementação de soluções de comércio eletrônico e entrega para apoiar negócios locais e proporcionar conveniência aos moradores. Desenvolvimento de plataformas digitais para promover o comércio local, facilitando a interação entre comerciantes e clientes. Utilização de análise de dados para identificar tendências de consumo e oportunidades de negócios no centro da cidade.",
+    "TurismoEncantador": "Turismo Encantador",
+    "TurismoEncantadortxt": "Criação de experiências turísticas imersivas utilizando tecnologias como realidade virtual e aumentada para contar histórias e destacar pontos turísticos. Desenvolvimento de aplicativos móveis que forneçam informações turísticas em tempo real, guias de viagem personalizados e opções de transporte. Promoção de eventos culturais e festivais temáticos que celebrem a diversidade cultural e histórica do Recife.",
+    "CulturaViva": "Cultura Viva",
+    "CulturaVivatxt": "Apoio a iniciativas culturais e artísticas locais, como galerias de arte, teatros e centros culturais, por meio de financiamento e parcerias público-privadas. Utilização de espaços públicos para exposições de arte ao ar livre, performances musicais e exibições de cinema. Digitalização e preservação do patrimônio cultural através de projetos de arquivamento digital e acesso online a coleções históricas.",
+    "HomeTitle": "Recife Vivo: Tecnologia para uma Cidade Vibrante",
+    "About": "Sobre",
+    "Contact": "Contato",
+    "Logout": "Sair",
+    "EventTitlePrefix": "Evento",
+    "EventDescriptionPrefix": "Descrição do Evento"
   }
   
