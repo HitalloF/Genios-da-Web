@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { View, Text, FlatList, Image } from 'react-native';
+import { View, Text, FlatList, Image, useWindowDimensions } from 'react-native';
 import tw from 'tailwind-react-native-classnames';
 
 import jeny from '../../assets/images/jeny.jpeg'
@@ -72,8 +72,15 @@ const membros = [
 ];
 
 const Equipe = () => {
+  const dimensions = useWindowDimensions();
+  const orientation = dimensions.width > dimensions.height ? 'landscape' : 'portrait';
+
+
   const renderItem = ({ item }) => (
-    <View style={tw`flex-row items-center p-4 border-b border-gray-200`}>
+    <View style={tw.style('flex-1 justify-center items-center p-8', {
+      'bg-gray-200': orientation === 'portrait',
+      'bg-gray-400': orientation === 'landscape',
+    })}>
       <Image source={item.foto} style={tw`w-16 h-16 rounded-full`} />
       <View style={tw`ml-4`}>
         <Text style={tw`text-lg font-semibold`}>{item.nome}</Text>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image, FlatList, useWindowDimensions,Button } from 'react-native';
+import { View, Text, Image, FlatList, useWindowDimensions, Button } from 'react-native';
 import tw from 'tailwind-react-native-classnames';
 import { useNavigation } from '@react-navigation/native';
 
@@ -19,15 +19,14 @@ const eventos = [
   // Inclua os outros eventos aqui...
 ];
 
-const Inicial = () => {
+const Inicial = ({ route }) => {
+  const { username, message } = route.params;
   const dimensions = useWindowDimensions();
   const orientation = dimensions.width > dimensions.height ? 'landscape' : 'portrait';
   const navigation = useNavigation();
 
   const renderEvento = ({ item }) => (
     <View style={tw.style('m-2 p-4 bg-white rounded-lg', { width: dimensions.width / 2 - 24 })}>
-      {/* Inclua a imagem quando tiver o caminho correto para as imagens */}
-      {/* <Image source={{ uri: item.imagem }} style={tw`h-40 w-full rounded-md`} /> */}
       <Text style={tw`text-lg font-bold mt-2`}>{item.titulo}</Text>
       <Text style={tw`text-sm`}>{item.descricao}</Text>
 
@@ -36,14 +35,16 @@ const Inicial = () => {
 
   return (
     <View style={tw.style('flex-1', { backgroundColor: orientation === 'portrait' ? '#dcdcdc' : '#a9a9a9' })}>
-                  <Button
+
+      <Button
         title="About"
         onPress={() => navigation.navigate('About')}
       />
-                        <Button
+      <Button
         title="Equipe"
         onPress={() => navigation.navigate('Equipe')}
       />
+      <Text style={tw`text-lg font-bold mt-2`}>{message}{username}</Text>
       <FlatList
         data={eventos}
         renderItem={renderEvento}

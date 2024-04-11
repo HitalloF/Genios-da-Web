@@ -11,7 +11,7 @@ const LoginScreen = ({ navigation }) => {
   const dimensions = useWindowDimensions();
   const orientation = dimensions.width > dimensions.height ? 'landscape' : 'portrait';
 
-  
+
   const containerStyles = tw.style(
     'flex-1 justify-center items-center p-5',
     orientation === 'landscape' ? 'bg-gray-400' : 'bg-gray-200'
@@ -19,7 +19,7 @@ const LoginScreen = ({ navigation }) => {
 
   return (
     <View style={containerStyles}>
-      
+
       <Text style={tw`text-2xl mb-5`}>{t('login')}</Text>
 
       <TextInput
@@ -30,12 +30,15 @@ const LoginScreen = ({ navigation }) => {
       />
       <TextInput
         style={tw`w-11/12 h-10 mb-3 border border-gray-300 rounded-md p-2.5`}
-        placeholder={t('password')} 
+        placeholder={t('password')}
         secureTextEntry={true}
         value={password}
         onChangeText={setPassword}
       />
-      <Button title={t('login')} onPress={() => navigation.replace('Inicial')} />
+      <Button
+        title={t('login')}
+        onPress={() => navigation.replace('Inicial', { username: username, message: 'Conectado como: ' })}
+      />
     </View>
   );
 };
