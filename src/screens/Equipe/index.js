@@ -28,6 +28,13 @@ const membros = [
     funcao: "HTML E CSS"
   },
   {
+    nome: " Márlya Monique ",
+    sobrenome: "Monique",
+    matricula: "01597623",
+    foto: alanturing,
+    funcao: "HTML E CSS"
+  },
+  {
     nome: "Bruno Soares",
     sobrenome: "da Silva",
     matricula: "11000133",

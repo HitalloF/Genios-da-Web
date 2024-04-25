@@ -16,7 +16,7 @@ const eventos = [
     descricao: "Um festival que reúne peças de teatro de todo o país, destacando a rica produção cultural e a diversidade do teatro brasileiro.",
     imagem: "festival_teatro_recife.jpg"
   },
-  // Inclua os outros eventos aqui...
+
 ];
 
 const Inicial = ({ route }) => {
